@@ -15,6 +15,7 @@ on:
         options:
           - all
           - sports_toys
+          - under_5
 
 jobs:
   scrape:
@@ -26,6 +27,8 @@ jobs:
         category:
           - name: sports_toys
             display_name: Sports & Toys
+          - name: under_5
+            display_name: Under 5 KWD
     
     name: Scrape ${{ matrix.category.display_name }}
     
