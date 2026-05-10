@@ -16,6 +16,7 @@ on:
           - all
           - sports_toys
           - under_5
+          - water_beverages
 
 jobs:
   scrape:
@@ -29,6 +30,8 @@ jobs:
             display_name: Sports & Toys
           - name: under_5
             display_name: Under 5 KWD
+          - name: water_beverages
+            display_name: Water & Beverages
     
     name: Scrape ${{ matrix.category.display_name }}
     
