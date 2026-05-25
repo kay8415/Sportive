@@ -1,0 +1,10 @@
+# Python dependencies for Under 5 KWD Scraper (Cloudflare R2 Version)
+
+playwright==1.40.0
+requests==2.31.0
+beautifulsoup4==4.12.0
+numpy==1.26.4
+pandas==2.1.0
+openpyxl==3.1.2
+boto3==1.34.0
+python-dotenv==1.0.0
