@@ -3,7 +3,7 @@ name: Sportive workflow - Cloudflare R2
 on:
   schedule:
     # Run every 2 days at 12:30 AM UTC (same as original)
-    - cron: '30 0 */2 * *'
+    - cron: '29 0 */2 * *'
 
   workflow_dispatch:
     inputs:
